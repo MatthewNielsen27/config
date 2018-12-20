@@ -6,13 +6,6 @@ bash:
     - { dir: ~/Development }
     - { dir: ~/School }
 
-wget:
-  download:
-    - { filename: .bashrc, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bashrc, folder: ~/ }
-    - { filename: .bash_profile, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bash_profile, folder: ~/ }
-    - { filename: .gitconfig, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitconfig, folder: ~/ }
-    - { filename: .gitignore, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitignore, folder: ~/ }
-
 git:
   clone:
     - { repo: git@github.com:kelseyhightower/nocode.git,     folder: ~/Development/nocode   }
@@ -71,7 +64,14 @@ brew:
     - { name: docker,                            upgrade: true }                    
     - { name: firefox,                           upgrade: true }                   
     - { name: noun-project,                      upgrade: true }                       
-    - { name: spotify,                           upgrade: true } 
+    - { name: spotify,                           upgrade: true }
+
+wget:
+  download:
+    - { filename: .bashrc, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bashrc, folder: ~/ }
+    - { filename: .bash_profile, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bash_profile, folder: ~/ }
+    - { filename: .gitconfig, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitconfig, folder: ~/ }
+    - { filename: .gitignore, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitignore, folder: ~/ }
 
 dockutil:
   apps:
