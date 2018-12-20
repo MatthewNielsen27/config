@@ -8,7 +8,10 @@ bash:
 
 wget:
   download:
-    - { filename: .bashrc, url: https://stay.strapped.sh, folder: ~/ }
+    - { filename: .bashrc, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bashrc, folder: ~/ }
+    - { filename: .bash_profile, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.bash_profile, folder: ~/ }
+    - { filename: .gitconfig, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitconfig, folder: ~/ }
+    - { filename: .gitignore, url: https://raw.githubusercontent.com/MatthewNielsen27/config/master/.gitignore, folder: ~/ }
 
 git:
   clone:
